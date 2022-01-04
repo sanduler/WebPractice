@@ -10,7 +10,6 @@
 
 <body>
     <h1>Forms Exemple</h1>
-
     <form action="/search">
         <p>
             <label for="username">Enter the Username: </label>
@@ -18,7 +17,7 @@
         </p>
         <p>
             <label for="password">Enter the Password</label>
-            <input id="password" type="password" placeholder="Password">
+            <input id="password" type="password" placeholder="Password" name="password">
         </p>
         <p>
             <label for="check">Save the Password?</label>
@@ -28,12 +27,13 @@
             <label for="col">Enter a color</label>
             <input id="col" type="color">
         </p>
-        <button type="button">Submit</button>
         <p>
             <input type="month">
             <input type="day">
             <input type="number">
         </p>
+        <button type="button">Submit</button>
+        <input type="submit" value="Send Request">
     </form>
 
 
