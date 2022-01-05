@@ -30,7 +30,7 @@
         <p>
             <input type="month">
             <input type="day">
-            <input type="number">
+            <input type="number" min="1" max="100">
         </p>
         <button type="button">Submit</button>
         <input type="submit" value="Send Request">
@@ -70,6 +70,14 @@
                 <option value="steak">Steak</option>
                 <option value="veggie">Veggie</option>
             </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="100" step="1" name="cheese_level">
+        </p>
+        <p>
+            <label for="requests">Any special requests</label>
+            <textarea name="Requests?" id="requests" cols="30" rows="10"></textarea>
         </p>
         <button>Submit</button>
     </form>
