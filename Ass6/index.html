@@ -103,7 +103,20 @@
         <input type="text" name="q">
         <button>Search Duck</button>
     </form>
-
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="8">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" minlength="5" maxlength="12">
+        </p>
+        <Button>Submit</Button>
+    </form>
 
 
 
