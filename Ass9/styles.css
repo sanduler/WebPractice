@@ -1,3 +1,26 @@
 h1{
     text-align: center;
+    font-weight: normal;
+    text-decoration: underline wavy blue;
+    letter-spacing: 15px;
+    font-size: 50px;
+    color: white;
+    font-family: Arial;
+    
+}
+p{
+    text-align: left;
+    font-weight: normal;
+    line-height: 2;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+body
+{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
 }
