@@ -18,3 +18,11 @@ h1, h2{
     background-color: darkred;
     color: whitesmoke;
 }
+
+span a{
+    color: peru
+}
+
+footer a{
+    color: lightblue;
+}
