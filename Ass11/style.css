@@ -23,6 +23,37 @@ span a{
     color: peru
 }
 
+.post a{
+    color: blue;
+    font-weight: 700;
+}
+
 footer a{
     color: lightblue;
+}
+
+h2 + button{
+    background-color: white;
+    font-size: 20px;
+}
+
+footer > a{
+    color: red;
+}
+input[type="password"]{
+    color: green ;
+}
+button:hover{
+    background-color: red;
+    color: white
+}
+.post button:hover{
+    background-color: red;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: green;
 }
