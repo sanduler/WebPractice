@@ -1,0 +1,72 @@
+/* h1 {
+    background-color: #2a9d8f;
+    border: 5px solid #264653;
+    color: #eae2b7;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align:center;
+    margin: 20px auto;
+    font-family: Courier New;
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n) {
+    background-color: #e9c46a;
+}
+h1:nth-of-type(3n) {
+    background-color: #f4a261;
+}
+h1:nth-of-type(4n) {
+    background-color: #e76f51;
+}
+
+*/
+
+h1 {
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(10, 163, 153);
+  color: rgb(201, 75, 123);
+  padding: 0.7em;
+  width: 300px;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 20px auto;
+  font-family: Courier New;
+  font-weight: lighter;
+  transition: all 1s;
+  border-radius: 50%;
+}
+h1:hover {
+  background-color: pink;
+}
+h1:nth-of-type(2n) {
+  background-color: rgb(226, 226, 123);
+}
+
+h1:nth-of-type(3n) {
+  background-color: rgb(201, 119, 221);
+}
+
+h1:nth-of-type(4n) {
+  background-color: rgb(231, 112, 57);
+}
+h1:nth-of-type(1) {
+  transform: rotate(23deg);
+  transform: scale(1.5);
+}
+
+h1:nth-of-type(2) {
+  transform: rotate(43deg);
+  transform: translateX(50%);
+}
+
+h1:nth-of-type(3) {
+  transform: rotate(63deg);
+  transform: skew(37deg);
+}
+
+h1:nth-of-type(4) {
+  transform: rotate(383deg);
+}
